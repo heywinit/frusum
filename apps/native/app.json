@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "scheme": "frusum",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "frusum",
+    "slug": "frusum",
+    "plugins": ["expo-font"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

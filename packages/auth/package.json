@@ -1,0 +1,25 @@
+{
+  "name": "@frusum/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@better-auth/expo": "catalog:",
+    "@frusum/db": "workspace:*",
+    "@frusum/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@frusum/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
